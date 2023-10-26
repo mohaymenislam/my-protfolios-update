@@ -1,4 +1,6 @@
 .testimonial-slider{
+     padding-top: 30px; 
+     margin-bottom: 30px;   
     position: 8rem 0;
     background-color: var(--bg-light);
 }

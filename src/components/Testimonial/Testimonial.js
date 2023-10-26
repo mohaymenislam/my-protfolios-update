@@ -29,9 +29,14 @@ const Testimonial = () => {
     return (
         <>
         <section>
-            <Reveal>
+            
             <Template></Template>
-            </Reveal>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
             
         </section>
         <section id='testimonial' className={styles['testimonial-slider']}>

@@ -1,5 +1,7 @@
 import React from 'react';
 import TestimonialApi from "./TestimonialApi"
+import {FaQuoteRight} from 'react-icons/fa'
+<i class='fal fa-quote-right'></i>
 
 const Sliders = ({ id, image, design, name, offcer, post, date, desc, valueIndex, index }) => {
     let position = "nextSlide"
@@ -11,7 +13,9 @@ const Sliders = ({ id, image, design, name, offcer, post, date, desc, valueIndex
     }
     return (  
         <>
-        <article className={`d_flex ${position}`} key={id}>
+        <article id='d' className={`d_flex ${position}`} key={id}>
+
+          
         
         <div className='left box_shodow'>
           <div className='img'>
@@ -23,11 +27,12 @@ const Sliders = ({ id, image, design, name, offcer, post, date, desc, valueIndex
             <label>{offcer}</label>
           </div>
         </div>
+        
 
         <div className='right'>
           <div className='icon'>
             <div className='quote'>
-              <i class='fal fa-quote-right'></i>
+              <FaQuoteRight style={{fontSize: '20' , opacity: '0.1'}}></FaQuoteRight>
             </div>
           </div>
 

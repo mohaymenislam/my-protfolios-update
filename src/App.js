@@ -39,14 +39,14 @@ const App = () => {
         {/* @@@@@@@@@@@@@@@  React Router dom start @@@@@@@@@@@@@@@@@@ */}
 
           <Routes>
-             <Route path='/' element={<Home></Home>}></Route>
+              <Route path='/' element={<Home></Home>}></Route>
              <Route path='/about' element={<About></About>}></Route>
              <Route path='/skills' element={<Skills></Skills>}></Route>  
           
               <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
               <Route path='/testimonial' element={<Testimonial></Testimonial>}></Route>        
-              <Route path='/contact' element={<Contact></Contact>}></Route> 
-               {/* <Route path='/portfolio' element={<React.Suspense fallback="Loading..."><lazePortfolio></lazePortfolio> </React.Suspense>}></Route> */}
+              <Route path='/contact' element={<Contact></Contact>}></Route>  
+               {/* <Route path='/portfolio' element={<Rea`ct.Suspense fallback="Loading..."><lazePortfolio></lazePortfolio> </React.Suspense>}></Route> */}
           </Routes>   
 
         {/* @@@@@@@@@@@@@@@   React Router dom end @@@@@@@@@@@@@@@@@@ */} 
@@ -54,11 +54,12 @@ const App = () => {
           {/* @@@@@@@@@@@@@@@   Back scroll To button  @@@@@@@@@@@@@@@@@@ */} 
 
 
-                <BackToTop></BackToTop>
+                 <BackToTop></BackToTop> 
             {/* @@@@@@@@@@@@@@@   Back scroll To button  @@@@@@@@@@@@@@@@@@ */}
 
           {/* @@@@@@@@@@@@@@@   Footer start  @@@@@@@@@@@@@@@@@@ */} 
-                   <Footer></Footer>
+                    <Footer></Footer> 
+                
             {/* @@@@@@@@@@@@@@@   Footer end @@@@@@@@@@@@@@@@@@ */} 
 
               
